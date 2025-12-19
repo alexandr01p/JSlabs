@@ -6,6 +6,15 @@
 
 ![alt-text](0.png)
 
+2.
+
 открыл консоль
 
 ![alt-text](1.png)
+
+написал hellow world
+
+![alt-text](2.png)
+
+написал 2+3 получил 5
+
