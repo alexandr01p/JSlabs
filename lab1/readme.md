@@ -20,3 +20,22 @@
 
 3.
 
+создал index.html с кодом
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Привет, мир!</title>
+ </head>
+ <body>
+   <script>
+     alert("Привет, мир!");
+     console.log("Hello, console!");
+   </script>
+ </body>
+</html>
+
+открыл в браузере
+
+![alt-text](3.png)
+![alt-text](4.png)
