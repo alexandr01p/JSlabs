@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\NodeConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\_java\\JSlabs\\lab3\\NodeConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B57A68F-9EC4-BEC6-55B6-0C9387F111EE}|NodeConsoleApp1.esproj|c:\\users\\admin\\source\\repos\\nodeconsoleapp1\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3B57A68F-9EC4-BEC6-55B6-0C9387F111EE}|NodeConsoleApp1.esproj|c:\\_java\\jslabs\\lab3\\nodeconsoleapp1\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3B57A68F-9EC4-BEC6-55B6-0C9387F111EE}|NodeConsoleApp1.esproj|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\NodeConsoleApp1\\app.js",
+              "DocumentMoniker": "C:\\_java\\JSlabs\\lab3\\NodeConsoleApp1\\app.js",
               "RelativeDocumentMoniker": "app.js",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\NodeConsoleApp1\\app.js",
+              "ToolTip": "C:\\_java\\JSlabs\\lab3\\NodeConsoleApp1\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAEsEAAAAAAAAAAAwwG0EAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwEAAAAAAAAAAAAAHYEAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-02-22T15:53:10.925Z",
               "EditorCaption": ""

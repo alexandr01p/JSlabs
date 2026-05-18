@@ -1,1 +1,2 @@
 C:\Users\admin\source\repos\NodeConsoleApp1\obj\Debug\NodeConsoleApp1.esproj.CoreCompileInputs.cache
+C:\_java\JSlabs\lab3\NodeConsoleApp1\obj\Debug\NodeConsoleApp1.esproj.CoreCompileInputs.cache

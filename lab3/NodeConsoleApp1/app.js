@@ -1135,3 +1135,5 @@ console.log("Feb 2019 Total:", calculateTotalAmountByDate(transactions, 2019, 2)
 console.log("Debit:", getTransactionByType(transactions, "debit"));
 
 console.log("Range 2019-02-01 to 2019-02-02:", getTransactionsInDateRange(transactions, "2019-02-01", "2019-02-02"));
+
+console.log("by merchant:", getTransactionsByMerchant(transactions, "PizzaRestaurantXYZ"));
