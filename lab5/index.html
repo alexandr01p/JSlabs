@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab №5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Inventory</h1>
+
+    <form id="item-form" class="item-form">
+      <label>
+        Name:
+        <input type="text" id="name" placeholder="Example: Steel Sword" />
+      </label>
+
+      <label>
+        Category:
+        <select id="category">
+          <option value="">Select category</option>
+          <option value="armor">Armor</option>
+          <option value="weapon">Weapon</option>
+          <option value="potion">Potion</option>
+        </select>
+      </label>
+
+      <label>
+        Rarirty:
+        <select id="rarity">
+          <option value="">Select Rarity</option>
+          <option value="common">Common</option>
+          <option value="uncommon">Uncommon</option>
+          <option value="rare">Rare</option>
+          <option value="legendary">Legendary</option>
+        </select>
+      </label>
+
+      <label>
+        Desciption:
+        <textarea id="description" placeholder="Item Description"></textarea>
+      </label>
+
+      <label>
+        Danage:
+        <input type="number" id="damage" placeholder="Only For Weapon" min="0" />
+      </label>
+
+      <button type="submit">Add Item</button>
+    </form>
+
+    <p id="error-message" class="error-message"></p>
+
+    <h2>Item List</h2>
+
+    <table id="inventory-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Rarity</th>
+          <th>Damage</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody id="inventory-body">
+      </tbody>
+    </table>
+
+    <p class="total">
+      Total Items: <span id="total-items">0</span>
+    </p>
+
+    <section class="details">
+      <h2>Desctipption</h2>
+      <p id="item-description">Hover over the item to see it's description.</p>
+    </section>
+  </main>
+
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>

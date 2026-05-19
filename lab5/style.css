@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ff0000;
+  color: #0997e9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: rgb(55, 0, 255);
+  border-radius: 12px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.item-form {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.item-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #ff00ea;
+  color: rgb(67, 204, 13);
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #ae00ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: white;
+}
+
+.rarity-common {
+  background-color: #d9d9d9;
+}
+
+.rarity-uncommon {
+  background-color: #d6f5d6;
+}
+
+.rarity-rare {
+  background-color: #d6e8ff;
+}
+
+.rarity-legendary {
+  background-color: gold;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.details {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.error-message {
+  color: crimson;
+  font-weight: bold;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
